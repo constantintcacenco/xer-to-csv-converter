@@ -9,8 +9,9 @@ python test.py input_dir output_dir
 ```
 e.g: 
 ```
-python test.py test.py test_files output_dir
+python test.py test_files output_dir
 ```
+where testfiles=directory with all XER files and outputdir=output(CSVs) location
 # installation
 ```
 pip install xertocsv
