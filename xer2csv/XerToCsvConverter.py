@@ -8,7 +8,7 @@ class XerToCsvConverter:
         self.tables = []
 
     def read_xer(self, file_path):
-        with open(file_path) as f:
+        with open(file_path, encoding="utf8", errors='ignore') as f:
             content = f.read()
             tables = content.split('%T')
             self.tables = tables[1:]

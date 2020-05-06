@@ -1,8 +1,9 @@
-from xertocsv import XerToCsvConverter
 import sys
 import os
+from ..xer2csv import XerToCsvConverter
 
-converter = XerToCsvConverter.XerToCsvConverter()
+
+converter = XerToCsvConverter()
 
 input_path = sys.argv[1]
 output_path = sys.argv[2]
