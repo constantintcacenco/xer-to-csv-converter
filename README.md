@@ -11,7 +11,7 @@ e.g:
 ```
 python test.py test_files output_dir
 ```
-where testfiles=directory with all XER files and outputdir=output(CSVs) location
+where test_files=directory with all XER files and out_putdir=output(CSVs) location
 # installation
 ```
 pip install xertocsv
