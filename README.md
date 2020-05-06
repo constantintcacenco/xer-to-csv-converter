@@ -11,3 +11,8 @@ e.g:
 ```
 python test.py test.py test_files output_dir
 ```
+# installation
+```
+pip install xertocsv
+```
+https://pypi.org/project/xertocsv/
