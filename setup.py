@@ -9,7 +9,7 @@ README = (HERE / 'README.md').read_text()
 
 setup_args = dict(
     name='xer2csv',
-    version='1.0.4',
+    version='1.0.5',
     description='A simple XER to CSV converter',
     long_description_content_type='text/markdown',
     long_description=README,
