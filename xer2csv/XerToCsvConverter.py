@@ -12,10 +12,12 @@ class XerToCsvConverter:
             tables = content.split('%T')
             self.tables = tables[1:]
 
+    # auxiliary function (no call from user needed)
     def check_output_dir(self, output_location):
         if not os.path.exists(output_location):
             os.makedirs(output_location)
 
+    # auxiliary function (no call from user needed)
     def check_missing_values(self, columns, rows_list):
         for row in rows_list:
             if len(columns) > len(row):
