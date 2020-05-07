@@ -1,6 +1,6 @@
 import sys
 import os
-from ..xer2csv import XerToCsvConverter
+from xer2csv import XerToCsvConverter
 
 
 converter = XerToCsvConverter()
